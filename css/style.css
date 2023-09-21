@@ -1,0 +1,95 @@
+[data-theme="dark"] {
+    background-image: linear-gradient(to right, #392d69, #b57bee);
+    background-size: contain;
+    color: #FFFFFF;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* set a height for the header */
+  margin-top: 6.5rem;
+  color: #fff;
+}
+
+#profile{
+    margin-left: 3rem;
+    margin-top: -1rem;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+h1 {
+  margin-left: 4rem;
+}
+
+#occupation{
+    display: inline-block;
+    vertical-align: right;
+    margin-top: -8.5rem;
+    margin-left: 4rem;
+    color: white;
+  }
+
+#p1{
+    margin-left: 30rem;
+    width: 50%;
+    margin-top: 3.5rem;
+}
+
+#p2{
+    margin-left: 30rem;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+#navigation {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#aboutlink {
+  position: fixed;
+  margin-left: -3rem;
+}
+
+#educationlink{
+  position: fixed;
+  margin-left: 1.5rem;
+}
+
+#projectslink{
+  position: fixed;
+  margin-left: 7.5rem;
+}
+
+#contactlink{
+  position: fixed;
+  margin-left: 12.5rem;
+}
+
+#resumelink {
+  position: fixed;
+  margin-left: 17.5rem;
+}
+
+#education{
+    margin-left: 30rem;
+    width: 50%;
+    margin-top: 3.5rem;
+}
+
+#projects{
+  margin-top: 6.5rem;
+}
+
+#buttons{
+  width: 200px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
