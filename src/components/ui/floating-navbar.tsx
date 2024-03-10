@@ -15,8 +15,9 @@ export const FloatingNav = ({
 }: {
   navItems: {
     name: string;
-    link: string;
+    link?: string;
     icon?: JSX.Element;
+    onClick?: (event: React.MouseEvent) => void;
   }[];
   className?: string;
 }) => {
