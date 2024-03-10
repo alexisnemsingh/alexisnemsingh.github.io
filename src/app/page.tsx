@@ -1,6 +1,5 @@
 "use client";
 import React, { ReactPropTypes } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 import { Roboto } from 'next/font/google'
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
@@ -19,7 +18,7 @@ import {
 } from "../components/ui/resizable"
 
 
-export function FloatingNavDemo() {
+function FloatingNavDemo() {
   const navItems = [
     {
       name: "Home",
@@ -34,7 +33,9 @@ export function FloatingNavDemo() {
       onClick: (event: React.MouseEvent) => {
         event.preventDefault();
         const element = document.getElementById("stickyScroll");
-        element.scrollIntoView({ behavior: "smooth" });
+        if (element !== null) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
       }
     },
     {
@@ -57,7 +58,7 @@ export function FloatingNavDemo() {
   );
 }
 
-export function TextRevealCardPreview() {
+function TextRevealCardPreview() {
   return (
     <div className="flex items-center justify-center h-[40rem] rounded-2xl w-full mb-[-200px]">
       <TextRevealCard
@@ -76,7 +77,7 @@ export function TextRevealCardPreview() {
   );
 }
 
-export function StickyScrollRevealDemo() {
+function StickyScrollRevealDemo() {
   return (
     <div id="stickyScroll" className="p-10">
       <StickyScroll content={content} />
@@ -106,7 +107,7 @@ const content = [
   },
 ];
 
-export function ResizablePanelDemo() {
+/*function ResizablePanelDemo() {
   return (
     <div className="relative">
       <ResizablePanelGroup>
@@ -128,9 +129,9 @@ export function ResizablePanelDemo() {
       </ResizablePanelGroup>
     </div>
   );
-}
+}*/
 
-export function ResizableDemo() {
+/*function ResizableDemo() {
   return (
     <ResizablePanelGroup
       direction="vertical"
@@ -149,7 +150,7 @@ export function ResizableDemo() {
       </ResizablePanel>
     </ResizablePanelGroup>
   )
-}
+}*/
 
 export default function WebPage() {
   return (
