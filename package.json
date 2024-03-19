@@ -1,12 +1,11 @@
 {
-  "homepage": "https://alexisnemsingh.github.io",
   "name": "alexisnemsingh.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -b main -d out",
     "start": "next start",
     "build": "next build",
     "lint": "next lint"
@@ -17,6 +16,7 @@
     "cal-sans": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "debug": "^4.3.4",
     "framer-motion": "^11.0.8",
     "next": "^14.1.3",
     "react": "^18",
@@ -24,7 +24,8 @@
     "react-resizable-panels": "^2.0.12",
     "react-scroll": "^1.9.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
