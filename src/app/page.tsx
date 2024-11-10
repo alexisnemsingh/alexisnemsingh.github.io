@@ -89,7 +89,7 @@ const content = [
   {
     title: "About Me",
     description:
-      "Hello! I am a Computer Science transfer student attending the California State University, Fullerton. I am experienced in Python, C, C++, and currently learning JavaScript. I am currently searching for a Software Engineering internship, and am greatly interested in learning more about computer science to help the world become a better place.",
+      "Hello! I am a Computer Science transfer student attending the California State University, Fullerton. I am experienced in Python, C, C++, C#, SQL, and JavaScript. I have completed an internship at Calpine Energy Solutions as a Software Developer Intern, where I worked on WebTools, an internal collection of web applications used by the various teams within the company. Through this experience, I learned C# and how to work within Azure DevOps, along with real world industry practices.",
   },
   {
     description:
@@ -98,12 +98,12 @@ const content = [
   {
     title: "Education",
     description:
-      "For my first two years in college, I attended the University of California, Merced, where I studied Computer Science & Engineering. Afterwards, I transferred to California State University, Fullerton, aiming to graduate with a BS in Computer Science in 2025.",
+      "For my first two years in college, I attended the University of California, Merced, where I studied Computer Science & Engineering. Afterwards, I transferred to California State University, Fullerton, aiming to graduate with a BS in Computer Science in Spring 2025.",
   },
   {
     title: "Future Goals",
     description:
-      "Right now, I have a great interest in front-end web development. In fact, that's what inspired me to sit down and properly create my website! Currently, I am searching for an internship to not only make meaningful contributions to a team, but to also gain real-world experience in the field that will better my coding skills.",
+      "Right now, I have a great interest in front-end web development. In fact, that's what inspired me to sit down and properly create my website! Currently, I am searching for a full time role to not only make meaningful contributions to a team, but to also continue learning and growing as a developer.",
   },
 ];
 
