@@ -35,8 +35,8 @@ export default function Page() {
             Through this experience, I learned C# and how to work within Azure DevOps, along with real world industry practices.
             </p>
             <p className="text-gray-300 leading-relaxed">
-            When I'm not studying or coding, you may find me writing about my latest D&D campaign, playing video games, 
-            listening to music, or running around Baldur's Gate. Maybe even running around {" "}
+            When I&apos;m not studying or coding, you may find me writing about my latest D&D campaign, playing video games, 
+            listening to music, or running around Baldur&apos;s Gate. Maybe even running around {" "}
             <Link href="https://na.finalfantasyxiv.com/lodestone/character/52154565/" target="_blank" className="text-red-400 hover:underline">
             Eorzea
             </Link>
