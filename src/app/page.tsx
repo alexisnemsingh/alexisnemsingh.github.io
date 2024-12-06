@@ -214,7 +214,7 @@ export default function Page() {
                     </Link>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-2">Commerical Booking Website</h3>
+                <h3 className="text-xl font-semibold text-white mb-2">Commercial Booking Website</h3>
                 <p className="text-gray-400 mb-4">Barbershop website with Booksy integration.</p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="text-gray-400 text-sm">HTML</span>
