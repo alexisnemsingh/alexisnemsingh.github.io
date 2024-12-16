@@ -1,9 +1,7 @@
 ## Introduction
 
-Hello! This is the repository for my portfolio website. It is a currently a work in progress, but
-the purpose of it was to learn React and Next.js. I also wanted to have a place to showcase my 
-projects and skills. I am currently working on the design and layout of the website, along with
-implementing the projects I've done.
+Hello! This is the repository for my portfolio website. I started this to learn React and Next.js. I also wanted to have a place to showcase my 
+projects and skills. As of now, I have finalized the design and layout of the website. 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
