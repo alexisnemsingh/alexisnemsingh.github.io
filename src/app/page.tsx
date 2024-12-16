@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link"
-import { Github, Linkedin, Mail, ExternalLink, FolderGit2, Menu, Bot, Scissors, KeyboardMusic } from 'lucide-react'
+import { Github, Linkedin, Mail, ExternalLink, FolderGit2, Menu, Bot, Scissors, KeyboardMusic, CreditCard } from 'lucide-react'
 import { CgPokemon } from "react-icons/cg";
 
 
@@ -27,7 +27,7 @@ export default function Page() {
           <div className="mb-12">
             <p className="text-gray-300 leading-relaxed mb-4">
             Hello! I am a Computer Science transfer student attending the California State University, Fullerton. 
-            I am experienced in Python, C, C++, C#, SQL, and JavaScript. I have completed an internship at {" "}
+            I am experienced in Python, C, C++, C#, SQL, JavaScript, and Swift. I have completed an internship at {" "}
             <Link href="https://www.calpinesolutions.com/" target="_blank" className="text-red-400 hover:underline">
               Calpine Energy Solutions
             </Link>
@@ -109,6 +109,8 @@ export default function Page() {
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Compilers and Languages</span>
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Algorithm Engineering</span>
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Computer System Architecture</span>
+                <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Mobile Device Application Programming</span>
+                <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Web Front-End Engineering</span>
               </div>
             </div>
             <div className="relative pl-8">
@@ -240,6 +242,25 @@ export default function Page() {
                   It will display various types of data, including the tempo, pitch, velocity, duration, and control changes.</p>
                 <div className="flex gap-2 flex-wrap">
                   <span className="text-gray-400 text-sm">Python</span>
+                </div>
+              </div>
+            </div>
+            <div className="group">
+              <div className="bg-gray-900 p-6 rounded-lg transition-all duration-300 group-hover:bg-gray-800">
+                <div className="flex justify-between items-start mb-4">
+                  <CreditCard className="w-10 h-10 text-red-400" />
+                  <div className="flex gap-4">
+                    <Link href="https://github.com/alexisnemsingh/Memora" target="_blank" className="text-gray-400 hover:text-red-400 transition-colors">
+                      <Github className="w-5 h-5" />
+                      <span className="sr-only">GitHub</span>
+                    </Link>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">Memora</h3>
+                <p className="text-gray-400 mb-4">A flashcard app made using Swift and SwiftUI. Users can save and load albums, along with using a quiz mode to test themselves.</p>
+                <div className="flex gap-2 flex-wrap">
+                  <span className="text-gray-400 text-sm">Swift</span>
+                  <span className="text-gray-400 text-sm">SwiftUI</span>
                 </div>
               </div>
             </div>
