@@ -99,7 +99,10 @@ export default function Page() {
               </Link>
               </h3>
               <p className="text-gray-300 mb-4">
-                Honors/Awards: John and Mary Bilello Innovation Scholarship (Fall 2024, Spring 2025)
+                GPA: 3.33/4.00
+              </p>
+              <p className="text-gray-300 mb-4">
+                Honors/Awards: John and Mary Bilello Innovation Scholarship (Fall 2024, Spring 2025); Dean&apos;s List
               </p>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Foundations of Software Engineering</span>
