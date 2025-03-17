@@ -146,7 +146,20 @@ export default function Page() {
               </Link>
               </h3>
               <p className="text-gray-300 mb-4">
-                Maintained WebTools, an internal collection of applications used by various teams within the company.
+              ▪ Maintained WebTools, an internal tool suite used by various teams within the company through bug fixes and updates to 
+              their functions using C#. 
+              </p>
+              <p className="text-gray-300 mb-4">
+              ▪ Updated various applications to .NET 8, decreasing security vulnerabilities and improving their performance.
+              </p>
+              <p className="text-gray-300 mb-4">
+              ▪ Modified various pipelines within Azure DevOps to include caching, significantly reducing build time for future runs.
+              </p>
+              <p className="text-gray-300 mb-4">
+              ▪ Upgraded applications in WebTools from Angular 8 to 18, updating deprecated code, optimizing performance, and ensuring compatibility with modern frameworks.
+              </p>
+              <p className="text-gray-300 mb-4">
+              ▪ Developed an automated script using VisualCron to manage database entries by periodically deleting outdated records, optimizing database performance, and maintaining data hygiene.
               </p>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">C#</span>
