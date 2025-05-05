@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link"
-import { Github, Linkedin, Mail, ExternalLink, FolderGit2, Menu, Bot, Scissors, KeyboardMusic, CreditCard } from 'lucide-react'
+import { Github, Linkedin, Mail, ExternalLink, Menu, Bot, Scissors, KeyboardMusic, CreditCard, CupSoda } from 'lucide-react'
 import { CgPokemon } from "react-icons/cg";
 
 
@@ -102,7 +102,7 @@ export default function Page() {
                 GPA: 3.33/4.00
               </p>
               <p className="text-gray-300 mb-4">
-                Honors/Awards: John and Mary Bilello Innovation Scholarship (Fall 2024, Spring 2025); Dean&apos;s List
+                Honors/Awards: John and Mary Bilello Innovation Scholarship (Fall 2024, Spring 2025); Dean&apos;s List; Engineering and Computer Science (ECS) Expo 2025 Finalist
               </p>
               <div className="flex gap-2 flex-wrap">
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Foundations of Software Engineering</span>
@@ -173,6 +173,25 @@ export default function Page() {
         <section id="projects" className="mb-20">
           <h2 className="text-2xl font-bold text-white mb-8">Notable Projects</h2>
           <div className="grid gap-6">
+            <div className="group">
+              <div className="bg-gray-900 p-6 rounded-lg transition-all duration-300 group-hover:bg-gray-800">
+                <div className="flex justify-between items-start mb-4">
+                  <CupSoda className="w-10 h-10 text-red-400" />
+                  <div className="flex gap-4">
+                    <Link href="https://github.com/4fatesstudios/boba-stop" target="_blank" className="text-gray-400 hover:text-red-400 transition-colors">
+                      <Github className="w-5 h-5" />
+                      <span className="sr-only">GitHub</span>
+                    </Link>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-2">Boba Stop</h3>
+                <p className="text-gray-400 mb-4">A role-playing life sim made in Unity where you run a boba shop, utilizing AI-generated dialogue for NPC interaction. Was chosen to present at CSUF&apos;s ECS Expo 2025.
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  <span className="text-gray-400 text-sm">C#</span>
+                </div>
+              </div>
+            </div>
             <div className="group">
               <div className="bg-gray-900 p-6 rounded-lg transition-all duration-300 group-hover:bg-gray-800">
                 <div className="flex justify-between items-start mb-4">
