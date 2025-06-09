@@ -99,7 +99,7 @@ export default function Page() {
               </Link>
               </h3>
               <p className="text-gray-300 mb-4">
-                GPA: 3.33/4.00
+                GPA: 3.40/4.00
               </p>
               <p className="text-gray-300 mb-4">
                 Honors/Awards: John and Mary Bilello Innovation Scholarship (Fall 2024, Spring 2025); Dean&apos;s List; Engineering and Computer Science (ECS) Expo 2025 Finalist
@@ -114,6 +114,8 @@ export default function Page() {
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Computer System Architecture</span>
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Mobile Device Application Programming</span>
                 <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Web Front-End Engineering</span>
+                <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Cybersecurity Foundations & Principles</span>
+                <span className="text-red-400 bg-red-400/10 px-3 py-1 rounded-full text-sm">Artificial Intelligence</span>
               </div>
             </div>
             <div className="relative pl-8">
