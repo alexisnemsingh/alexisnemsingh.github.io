@@ -60,11 +60,6 @@ export default function Page() {
                   PROJECTS
                 </Link>
               </li>
-              <li>
-                <Link href="/Alexis Nemsingh Resume.pdf" target="_blank" className="text-gray-400 hover:text-red-400 transition-colors">
-                  RESUME
-                </Link>
-              </li>
             </ul>
           </nav>
           <footer className="mt-12">
