@@ -26,7 +26,7 @@ export default function Page() {
           </p>
           <div className="mb-12">
             <p className="text-gray-300 leading-relaxed mb-4">
-            Hello! I am a Computer Science transfer student attending the California State University, Fullerton. 
+            Hello! I am a Computer Science graduate from the California State University, Fullerton. 
             I am experienced in Python, C, C++, C#, SQL, JavaScript, and Swift. I have completed an internship at {" "}
             <Link href="https://www.calpinesolutions.com/" target="_blank" className="text-red-400 hover:underline">
               Calpine Energy Solutions
